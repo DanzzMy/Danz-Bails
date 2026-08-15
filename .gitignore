@@ -1,0 +1,18 @@
+node_modules/
+*.log
+npm-debug.log*
+
+# auth / session data — never commit these
+auth_info*/
+session*/
+*.session
+.env
+
+# editor
+.vscode/
+.idea/
+.DS_Store
+
+# NOTE: lib/ is intentionally NOT ignored.
+# DanzBails ships compiled output so it installs directly via
+# npm install github:danzzmy/Danz-Bails without a build step.
